@@ -15,6 +15,7 @@
 		81404EBA27D77C700069A9F0 /* RemoteVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81404EB927D77C700069A9F0 /* RemoteVideoView.swift */; };
 		81404EBC27D77C8E0069A9F0 /* BundledVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81404EBB27D77C8E0069A9F0 /* BundledVideoView.swift */; };
 		81404EBE27D77CE70069A9F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 81404EBD27D77CE70069A9F0 /* README.md */; };
+		81404EC327D79BA00069A9F0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81404EC227D79BA00069A9F0 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		81404EB927D77C700069A9F0 /* RemoteVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteVideoView.swift; sourceTree = "<group>"; };
 		81404EBB27D77C8E0069A9F0 /* BundledVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledVideoView.swift; sourceTree = "<group>"; };
 		81404EBD27D77CE70069A9F0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		81404EC227D79BA00069A9F0 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				81404EA727D774D00069A9F0 /* VideoPlayerExampleApp.swift */,
-				81404EB527D775030069A9F0 /* cultivate-to-news-clip.m4v */,
-				81404EA927D774D00069A9F0 /* ContentView.swift */,
-				81404EBB27D77C8E0069A9F0 /* BundledVideoView.swift */,
-				81404EB927D77C700069A9F0 /* RemoteVideoView.swift */,
+				81404EBF27D79B5F0069A9F0 /* Model */,
+				81404EC027D79B700069A9F0 /* Videos */,
+				81404EC127D79B850069A9F0 /* Views */,
 				81404EAB27D774D10069A9F0 /* Assets.xcassets */,
 				81404EAD27D774D10069A9F0 /* Preview Content */,
 			);
@@ -77,6 +78,32 @@
 				81404EAE27D774D10069A9F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81404EBF27D79B5F0069A9F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81404EC227D79BA00069A9F0 /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81404EC027D79B700069A9F0 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				81404EB527D775030069A9F0 /* cultivate-to-news-clip.m4v */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		81404EC127D79B850069A9F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81404EA927D774D00069A9F0 /* ContentView.swift */,
+				81404EBB27D77C8E0069A9F0 /* BundledVideoView.swift */,
+				81404EB927D77C700069A9F0 /* RemoteVideoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +182,7 @@
 				81404EBA27D77C700069A9F0 /* RemoteVideoView.swift in Sources */,
 				81404EA827D774D00069A9F0 /* VideoPlayerExampleApp.swift in Sources */,
 				81404EBC27D77C8E0069A9F0 /* BundledVideoView.swift in Sources */,
+				81404EC327D79BA00069A9F0 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
